@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6fa;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  background: #4b0082;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav button {
+  margin: 5px;
+  padding: 10px 20px;
+  background: #fff;
+  border: none;
+  border-radius: 5px;
+  color: #4b0082;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.intro {
+  padding: 20px;
+  background: #e0d9f7;
+  text-align: center;
+}
+
+.airdrop-list {
+  padding: 20px;
+}
+
+.airdrop-card {
+  background: #fff;
+  padding: 15px;
+  margin: 10px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.airdrop-card a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #fff;
+  background: #4b0082;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.login-form {
+  display: none;
+  padding: 20px;
+  background: #fefefe;
+  border-top: 2px solid #4b0082;
+  text-align: center;
+}
+
+.login-form input {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 80%;
+  max-width: 300px;
+}
+
+.login-form button {
+  padding: 10px 20px;
+  background: #4b0082;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
